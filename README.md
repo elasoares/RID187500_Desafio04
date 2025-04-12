@@ -54,3 +54,10 @@ Foram criados componentes funcionais que utilizam os Hooks `useState` e `useEffe
 1. Clone o repositório:
 ```bash
 git clone https://github.com/elasoares/RID187500_Desafio04.git
+```
+
+2. Site hospedado no netlify:
+``` bash
+netlify [acessar](https://portfolio-elaine.netlify.app/)
+
+```
