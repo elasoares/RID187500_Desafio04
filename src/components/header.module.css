@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "logo"
+    "menuArea";
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    width: 100%;
+}
+
+.logo{
+    grid-area: logo;
+    padding: 20px;
+    font-family: "Manrope", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.container-menu{
+    grid-area: menuArea;
+    display: grid;
+    grid-template-areas: 
+    "menu titulo";
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 550px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.menu {
+    grid-area: menu;
+    list-style: none;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Manrope", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-style: normal;
+    display: inline-block; 
+    transform: rotate(-90deg);
+    height: 100px;
+    width: 20%;
+}
+.titulo {
+    grid-area: titulo;
+    width: 100%;
+    position: absolute;
+    left: 100px;
+    top: 280px;
+    font-family: "DotGothic16", sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    color: #000000;
+}
+
+
+@media (min-width: 650px) {
+    .titulo {
+        left: 200px;
+    }
+}
+@media (min-width: 800px) {
+    .titulo {
+        text-align: center;
+        width: 60%;
+    }
+}
+@media (min-width: 900px) {
+    .titulo {
+        text-align: center;
+        width: 70%;
+    }
+}

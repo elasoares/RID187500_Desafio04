@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* Título */
+.container-titulo{
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.titulo{
+    font-size: 26px;
+    font-family: "Manrope", sans-serif;
+    color: #000000;
+}
+.linha{
+    border-bottom: 6px solid black;
+    width: 60px;   
+}
+
+/* Texto sobre */
+.container-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+.titulo-nome{
+    color: #000000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Manrope", sans-serif;
+}
+.paragrafo{
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Manrope", sans-serif;
+}
+
+.texto{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 380px;
+}
+
+.container-texto p{
+    text-align: left;
+}
+.container-texto h3{
+    text-align: left;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 380px;
+}
+.lista .item{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Manrope", sans-serif;
+}
+
+/* Imagem do card */
+
+.imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* Card habilidades */
+
+.titulo-card{
+    color: #000000;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    padding-bottom: 8px;
+}
+.paragrafo-card{
+    color: #000000;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+}
+.container-habilidades{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista2{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.lista2> li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid #0000000a;
+}
+
+/* Experiencia */
+.container-experiencia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.lista3{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.linha-imagem{
+    height: 165px;
+}
+.lista3 > li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #0000000a;
+}
+
+.container-item-experiencia{
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.item-experiencia{
+    list-style: none;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    
+}
+@media (min-width: 600px) {
+    .lista2 > li{
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 80%;
+        height: 80px;
+        background-color: orange;
+    }
+
+
+}
+@media (min-width: 750px) {
+    .lista2{
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .lista2 > li{
+        align-items: flex-start;
+        flex-direction: row;
+        width: 80%;
+        padding: 10px;
+        height: 180px;
+        background-color: blue;
+    }
+    .lista3{
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .lista3 > li{
+        width: 300px;
+    }
+
+}
+@media (min-width: 780px){
+    .lista2 > li{
+        height: 190px;
+        background-color: pink;
+    }
+}
+@media (min-width: 800px) {
+
+    .lista2 > li{
+        align-items: flex-start;
+        flex-direction: row;
+        width: 50%;
+        padding: 10px;
+        height: 200px;
+        background-color: violet;
+    }
+    .texto{
+        width: 500px;
+    }
+    
+    .lista{
+        width: 500px;
+    }
+
+}
+@media (min-width: 900px) {
+
+    .lista2 > li{
+        align-items: flex-start;
+        flex-direction: row;
+        width: 80%;
+        padding: 10px;
+        height: 100px;
+        background-color: aquamarine;
+    }
+
+}

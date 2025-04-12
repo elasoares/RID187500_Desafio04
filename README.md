@@ -1,62 +1,56 @@
-# 🚀 Portfólio Profissional com React Hooks
+# 💼 Portfólio Profissional - Elaine Soares Almeida
 
-Este é um projeto de portfólio profissional desenvolvido utilizando a biblioteca React, empregando componentes específicos e técnicas modernas de desenvolvimento com Hooks.
-
-## 📝 Desafio
-O objetivo principal deste projeto é criar um portfólio atraente e funcional que demonstre habilidades técnicas e profissionais, transmitindo personalidade e profissionalismo através de um design bem elaborado e conteúdo personalizado.
-
-## 🖥️ Tecnologias Utilizadas
-- React.js
-- Vite
-- Hooks (useState, useEffect)
-- CSS/Styled Components
-
-## 🎨 Template Selecionado
-O template escolhido para o desenvolvimento foi o **Template 01** disponível no Figma. A estrutura do projeto segue fielmente o design do template para garantir consistência e coesão visual.
-
-## 🛠️ Como Rodar o Projeto
-### 1️⃣ Configuração do Ambiente
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/elasoares/RID187500_Desafio04.git
-   ```
-2. Acesse a pasta do projeto:
-   ```sh
-   cd nome-do-projeto
-   ```
-3. Instale as dependências:
-   ```sh
-   npm install
-   ```
-4. Inicie o servidor de desenvolvimento:
-   ```sh
-   npm run dev
-   ```
-
-## 📌 Estrutura do Projeto
-O projeto contém as seguintes seções:
-- **Sobre Mim**: Uma breve introdução pessoal.
-- **Habilidades**: Tecnologias e ferramentas dominadas.
-- **Projetos**: Portfólio de trabalhos desenvolvidos.
-- **Contato**: Informações para conexão profissional.
-
-## ⚛️ Uso de Hooks
-O projeto utiliza os seguintes Hooks:
-- **useState**: Para gerenciar o estado dos componentes dinâmicos.
-- **useEffect**: Para carregar dados e executar efeitos colaterais.
-
-## 📢 Deploy
-O projeto está disponível online em: [Link do Deploy](https://seu-portifolio.com)
-
-## ✅ Critérios Atendidos
-- [x] Escolha e documentação do template
-- [x] Uso de React e Vite
-- [x] Substituição do conteúdo padrão por informações reais
-- [x] Implementação de Hooks para interatividade
-
-## 📜 Licença
-Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo!
+Este repositório contém o desenvolvimento do meu portfólio profissional como desenvolvedora front-end, utilizando **React**, **Vite** e técnicas modernas de desenvolvimento com **Hooks**. Este projeto foi criado com o objetivo de apresentar minhas habilidades técnicas, estilo pessoal e experiências, visando destacar minha presença como freelancer no mercado de tecnologia.
 
 ---
 
-Feito com 💙 por [Elaine Soares](https://github.com/elasoares)
+## 🚀 Desafio
+
+O desafio consiste em **projetar um portfólio profissional utilizando a biblioteca React**, aplicando componentes personalizados com Hooks para adicionar interatividade. O foco é construir uma identidade digital forte, transmitir profissionalismo e atrair potenciais clientes.
+
+---
+
+## 📌 Template escolhido
+
+**Template 01** – Selecionado por representar bem minha identidade visual e por permitir uma estrutura organizada, moderna e visualmente agradável, conforme o design no Figma.
+
+🔗 [Link para o Figma](#) *(https://www.figma.com/design/O2j7uVVhXUnV6dadZc2MMw/Desafio-03--Desenvolva-um-portf%C3%B3lio-com-React-hooks?node-id=0-1&p=f&t=Ldjrfnrt1ik9eB9U-0)*
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- [✔️] React
+- [✔️] Vite
+- [✔️] JavaScript (ES6+)
+- [✔️] CSS Modules
+- [✔️] HTML5
+- [✔️] Git e GitHub
+
+---
+
+## 🧱 Estrutura do Projeto
+
+O projeto contém as seguintes seções:
+
+- **Home:** Apresentação pessoal e frase animada com efeito de digitação.
+- **Sobre mim:** Descrição pessoal, objetivos profissionais e jornada na tecnologia.
+- **Projetos:** Destaque de projetos desenvolvidos.
+- **Habilidades:** Soft e hard skills com destaque visual.
+- **Contato:** Formulário de contato e redes sociais.
+
+Todo conteúdo foi personalizado, substituindo os textos *Lorem Ipsum* pelos meus dados reais, proporcionando uma apresentação autêntica e profissional.
+
+---
+
+## 🧩 Componentes React com Hooks
+
+Foram criados componentes funcionais que utilizam os Hooks `useState` e `useEffect`:
+
+
+
+## 💻 Instalação e Execução
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/elasoares/RID187500_Desafio04.git
