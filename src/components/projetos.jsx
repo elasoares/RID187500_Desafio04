@@ -43,7 +43,7 @@ export function Projetos(){
     return(
         <section id="projeto">
             <div className={styles["container-titulo"]}>
-                <h1 className={styles.titulo}> Projetos </h1>
+                <h2 className={styles.titulo}> Projetos </h2>
                 <p className={styles.linha}></p>
             </div>
             <ul className={styles["container-projeto"]}>
@@ -60,7 +60,7 @@ export function Projetos(){
                             </ul>
                         </div>
                         <div className={styles["container-sobre-projeto"]}>
-                            <h3>{projeto.projeto}</h3>
+                            <h3 className={styles["titulo-do-projeto"]}>{projeto.projeto}</h3>
                             <p>{projeto.sobre}</p>
                         </div>
 
